@@ -1,5 +1,5 @@
 
-public class One_DataTypes {
+public class A_program_DataTypes {
     public static void main(String[] args) {
 
         // In Java, the valueOf method is used to convert a primitive data type to its
