@@ -37,6 +37,9 @@ public class B_program_Variables {
   public static void main(String[] args) {
       B_program_Variables obj = new B_program_Variables(); // Creating object of class Demo
 
+      System.out.println(obj.instanceVar);
+      System.out.println("hi");
+
       // Calling methods
       obj.method1(); // Calls method1()
       obj.method2(); // Calls method2()

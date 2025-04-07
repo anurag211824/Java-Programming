@@ -1,7 +1,6 @@
-
 public class A_program_DataTypes {
     public static void main(String[] args) {
-
+        // Your code here...
         // In Java, the valueOf method is used to convert a primitive data type to its
         // corresponding wrapper class object.
         // This method is part of the wrapper classes (like Boolean, Character, Byte,
@@ -62,4 +61,34 @@ public class A_program_DataTypes {
         }
         System.out.println();
     }
+
 }
+
+// Benefits of Wrapper Classes in Java
+
+// Wrapper classes in Java provide a way to use primitive data types (int, char,
+// boolean, etc.) as objects.
+// Here are some key benefits:
+
+// # Object-Oriented Features
+
+// 1. Java is an object-oriented programming language, and some features
+// (such as collections, generics, and synchronization) require objects.
+// 2. Wrapper classes allow primitives to be used in these scenarios.
+
+// # Autoboxing and Unboxing
+
+// 1. Java automatically converts primitives to wrapper objects (autoboxing) and
+// vice versa (unboxing),
+// making code more readable and efficient.
+
+// Integer num = 10; // Autoboxing (int → Integer)
+// int value = num; // Unboxing (Integer → int)
+
+// # Usage in Collections (ArrayList, HashMap, etc.)
+
+// 1. Java’s collection framework does not support primitive types directly.
+// 2. Wrapper classes allow primitive values to be stored in data structures
+// like ArrayList, HashMap, etc.
+// ArrayList<Integer> list = new ArrayList<>();
+// list.add(10); Works because of autoboxing
